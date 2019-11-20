@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.burger-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+.burger-menu {
+    display: block;
+    background-color: #444444;
+    color : white;
+}
+
+.burger-menu li {
+    display: block;
+    height : 3em;
+}
+
+.burger-menu li ul li{
+    height: 3em;
+    padding-left: 2em;
+    display: block;
+}
+
+.search-field {
+    background-color: #dddddd;
+}
+
+
+
+.filters {   
+}
+
+.filters  fieldset {
+    margin-top: 2em;
+    background-color: #dbdbdb;
+}
+
+.filters legend {
+    box-sizing: border-box;
+    padding: 0em 2em 0em 2em;
+    color : white;
+    background-color: black;
+    position: absolute;
+    margin-top : -1em;
+    height: 2em;
+    padding-top: 0.5em;
+}
+
+
+.filters .rating legend {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+
+
+
+.filters .color ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.filters .size ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.filters .rating ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size : 2em;
+    text-align: center;
+    margin: 2em 0em 1em 0em;
+    color: white;
+    background-color: black;
+}
+
+.product {
+
+}
+.product h3 {
+    font-size : 2em;
+    padding-left: 1em;
+}

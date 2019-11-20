@@ -16,7 +16,7 @@
       <a href="index.html"><img src="img/logo.svg" alt="HTML Logo (replace this)"></a>
 
       <!-- Navigation menu and toggle button (non-functional) -->
-      <nav aria-label="Primary">
+      <nav aria-label="Primary" class = "burger-menu">
         <button type="button">
           <span class="material-icons">menu</span>
         </button>
@@ -35,7 +35,7 @@
       </nav>
 
       <!-- Search for a product (non-functional) -->
-      <form>
+      <form class = "search-field">
         <label>Search
           <input type="search" name="find" id="find">
         </label>
@@ -50,12 +50,14 @@
       </ul>
     </header>
 
+
+
     <main>
       <header>
         <h1>Sale on [Category Name]</h1>
 
         <!-- Filtering product form -->
-        <form>
+        <form class = "filters">
           <h2>Filters</h2>
           <fieldset>
             <label for="sort">Show</label>
@@ -65,9 +67,10 @@
               <option value="newest">Newest releases</option>
             </select>
           </fieldset>
-          <fieldset>
+          <fieldset class = "color">
             <legend>Colour</legend>
             <ul>
+              <li></li>
               <li><input type="checkbox" name="colour" value="black" id="black"> <label for="black">Black</label></li>
               <li><input type="checkbox" name="colour" value="white" id="white"> <label for="white">White</label></li>
               <li><input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey">Grey</label></li>
@@ -75,9 +78,10 @@
               <li><input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue">Blue</label></li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class = "size">
             <legend>Sizes</legend>
-            <ol>
+            <ol start = "0">
+              <li></li>
               <li><input type="checkbox" name="size" value="xs" id="xs"> <label for="xs">XS</label></li>
               <li><input type="checkbox" name="size" value="sm" id="sm"> <label for="sm">S</label></li>
               <li><input type="checkbox" name="size" value="md" id="md"> <label for="md">M</label></li>
@@ -85,7 +89,7 @@
               <li><input type="checkbox" name="size" value="xl" id="xl"> <label for="xl">XL</label></li>
             </ol>
           </fieldset>
-          <fieldset>
+          <fieldset class = "rating">
             <legend>Ratings (above)</legend>
             <ol>
               <li>
@@ -121,7 +125,7 @@
         <h2>Results</h2>
 
         <!-- Product 1 -->
-        <article>
+        <article class = "product">
           <header>
             <img src="img/product.jpg" alt="Product Image">
           </header>
@@ -160,7 +164,7 @@
         </article>
 
         <!-- Product 2 -->
-        <article>
+        <article class = "product">
           <header>
             <img src="img/product.jpg" alt="Product Image">
           </header>
