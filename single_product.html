@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document title</title>
+    <meta name="description" content="[A short description]">
+    <meta name="author" content="[Your Name]">
+    <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/single_product_restyle.css">
+  </head>
+  <body>
+
+
+    <header>
+      <!-- Site logo, replace with your own -->
+        <a href="index.html">
+            <div class = "header-image-container">
+                <!--img src="img/shutter_splash.jpeg" alt="HTML Logo (replace this)"-->
+            </div>
+        </a>
+
+      
+      <!-- Navigation menu and toggle button (non-functional) -->
+      <nav aria-label="Primary" class = "burger-menu">
+        <button class="burger" type="button">
+          <span class="material-icons">menu</span>
+        </button>
+        <ul>
+          <li><a href="#">Category</a>
+            <ul>
+              <li><a href="#">Subcategory</a></li>
+              <li><a href="#">Subcategory</a></li>
+              <li><a href="#">Subcategory</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Category</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+      <!-- Search for a product (non-functional) -->
+      <form class = "search-field">
+        <label>Search
+          <input type="search" name="find" id="find">
+        </label>
+        <button type="button"><span class="material-icons">search</span></button>
+      </form>
+
+      <!-- Additional nav links -->
+
+      <ul>
+        <li><a href="#"><span class="material-icons">favorite_border</span></a></li>
+        <li><a href="#"><span class="material-icons">shopping_cart</span></a></li>
+      </ul>
+    </header>
+
+
+
+    <main>
+        <div class = "article-binder">
+            <article class = "single-product-container">
+              <div class = "product-article-adaptive-grid">
+                <div class = "left">
+                  <div class = "product-image-wrap"><img src = "img/product.jpg"></div>
+                </div>
+                <div class = "right">
+                  <div class = "name">Unique and Very good product</div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias ducimus maiores accusamus! Omnis commodi iure quidem modi voluptatum voluptatem tempora doloribus odio, placeat repellendus, facere cumque possimus porro culpa?</p>
+                  <h2>Specification</h2>
+                    <div class = "spec-table">
+                        <div class = "property-name dimm">Amount of bottles</div>
+                        <div class = "property-value">Quite some</div>
+                        <div class = "property-name">Color of labels</div>
+                        <div class = "property-value dimm">Black</div>
+                        <div class = "property-name dimm">Leaking?</div>
+                        <div class = "property-value">For sures - no</div>
+                        <div class = "property-name ">Another property</div>
+                        <div class = "property-value dimm">Another value</div>
+                        <div class = "property-name dimm">Amount of bottles</div>
+                        <div class = "property-value">Quite some</div>
+                        <div class = "property-name">Color of labels</div>
+                        <div class = "property-value dimm">Black</div>
+                        <div class = "property-name dimm">Leaking?</div>
+                        <div class = "property-value">For sures - no</div>
+                        <div class = "property-name ">Another property</div>
+                        <div class = "property-value dimm">Another value</div>
+                        <div class = "property-name dimm">Amount of bottles</div>
+                        <div class = "property-value">Quite some</div>
+                        <div class = "property-name">Color of labels</div>
+                        <div class = "property-value dimm">Black</div>
+                        <div class = "property-name dimm">Leaking?</div>
+                        <div class = "property-value">For sures - no</div>
+                        <div class = "property-name ">Another property</div>
+                        <div class = "property-value dimm">Another value</div>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+
+              
+
+
+                <div class = "rating-and-see-more">
+                    <div class = "rating">
+                        <dt>Rating</dt>
+                        <dd>4.4 <span class="material-icons rating-stars">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd>
+                    </div>
+                    <a href = "###"><div class = "see-more-link">Write a review</div></a>
+                </div>
+
+                <form>
+                    <div class = "separator"></div>
+                    <section class = "product-specification">
+                        <fieldset class = "product-colour">
+                        <legend class = "product-spec-legend">Colours</legend>
+                        <ul>
+                            <li>
+                            <label class = "container">
+                                <input class = "custom-radio" type="radio" name="colour" value="r"> <div  class = "z-label">Red</div>
+                                <span class = "checkmark"></span>
+                            </label>
+                            </li>
+                            <li>
+                            <label class = "container">
+                                <input class = "custom-radio" type="radio" name="colour" value="w"> <div  class = "z-label">White</div>
+                                <span class = "checkmark"></span>
+                            </label>
+                            </li>
+                            <li>
+                            <label class = "container">
+                                <input class = "custom-radio" type="radio" name="colour" value="b"> <div  class = "z-label">Blue</div>
+                                <span class = "checkmark"></span>
+                            </label>
+                            </li>
+                        </ul>
+                        </fieldset>
+        
+        
+                        <fieldset class = "product-size">
+                        <legend class = "product-spec-legend">Sizes</legend>
+                        <ol>
+                            <li>
+                            <label class = "container">
+                                <input class = "custom-radio" type="radio" name="size" value="m"> M
+                                <span class = "checkmark"></span>
+                            </label>
+                            </li>
+                            <li>
+                            <label class = "container">
+                                <input class = "custom-radio" type="radio" name="size" value="l"> L
+                                <span class = "checkmark"></span>
+                            </label>
+                            </li>
+                            <li>
+                            <label class = "container">
+                                <input class = "custom-radio" type="radio" name="size" value="xl"> XL
+                                <span class = "checkmark"></span>
+                            </label>
+                            </li>
+                        </ol>
+                        </fieldset>
+        
+                    </section>
+                    <div class = "separator"></div>
+                    <footer class = "interaction-panel">
+                        <div class = "price"> <data value="39"><del>$50.00</del> <ins>$39.00</ins></data></div>
+                        <div class = "like">  <button type="button"><span class="material-icons">favorite</span></button></div>
+                        <div><button class = "buy-button">BUY</button></div>
+                    </footer>
+                </form>
+
+
+
+            </article>
+
+            <section class = "comment-section">
+                <article class = "customer-review">
+                    <div class = "user-data">
+                        <div class = "user-name">Dave</div>
+                        <div class = "user-picture"></div>
+                    </div>
+                    <div class = "comment-body">
+                        <div class = "mark"><dd>4.4 <span class="material-icons rating-stars">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente voluptatum ipsum, laudantium fugiat perferendis voluptates, deleniti, ut nisi sit maxime itaque beatae accusamus esse? Maiores, consectetur. Molestiae, error voluptatibus.</p>
+                    </div>
+                </article>
+                <article class = "customer-review">
+                    <div class = "user-data">
+                        <div class = "user-name">John</div>
+                        <div class = "user-picture"></div>
+                    </div>
+                    <div class = "comment-body">
+                        <div class = "mark"><dd>4.0 <span class="material-icons rating-stars">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente voluptatum ipsum, laudantium fugiat perferendis voluptates, deleniti, ut nisi sit maxime itaque beatae accusamus esse? Maiores, consectetur. Molestiae, error voluptatibus.</p>
+                    </div>
+                </article>
+                <article class = "customer-review">
+                    <div class = "user-data">
+                        <div class = "user-name">Bro</div>
+                        <div class = "user-picture"></div>
+                    </div>
+                    <div class = "comment-body">
+                        <div class = "mark"><dd>3.4 <span class="material-icons rating-stars">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente voluptatum ipsum, laudantium fugiat perferendis voluptates, deleniti, ut nisi sit maxime itaque beatae accusamus esse? Maiores, consectetur. Molestiae, error voluptatibus.</p>
+                    </div>
+                </article>
+                <article class = "customer-review">
+                    <div class = "user-data">
+                        <div class = "user-name">Not Bro</div>
+                        <div class = "user-picture"></div>
+                    </div>
+                    <div class = "comment-body">
+                        <div class = "mark"><dd>2.4 <span class="material-icons rating-stars">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_half</span></dd></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente voluptatum ipsum, laudantium fugiat perferendis voluptates, deleniti, ut nisi sit maxime itaque beatae accusamus esse? Maiores, consectetur. Molestiae, error voluptatibus.</p>
+                    </div>
+                </article>
+
+                
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+    <footer class = "main-footer">
+      <p>&copy; Copyright, 1991.</p>
+      <nav aria-label="Legal">
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Accessibility Policy</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li><a href="#"><span class="material-icons">face</span> Facebook</a></li>
+        <li><a href="#"><span class="material-icons">camera_alt</span> Instagram</a></li>
+        <li><a href="#"><span class="material-icons">alternate_email</span> Twitter</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>

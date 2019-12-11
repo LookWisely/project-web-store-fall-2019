@@ -1,0 +1,1051 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap');
+
+
+/* ======================================= */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap');
+
+
+.top-logo {
+    display: block;
+    width : 30%;
+    margin : 1em auto;
+
+    overflow: hidden;
+}
+
+.burger-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+.burger-menu {
+    display: block;
+    background-color: #444444;
+    color : white;
+}
+
+.burger-menu li {
+    display: block;
+    height : 3em;
+}
+
+.burger-menu li ul li{
+    height: 3em;
+    padding-left: 2em;
+    display: block;
+}
+
+.search-field {
+    background-color: #dddddd;
+}
+
+/* == Category menu on the top ==*/
+
+.filters {   
+}
+
+.filters  fieldset {
+    margin-top: 2em;
+    background-color: #dbdbdb;
+}
+
+.filters legend {
+    box-sizing: border-box;
+    padding: 0em 2em 0em 2em;
+    color : white;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 1.1em;
+    background-color: black;
+    position: absolute;
+    margin-top : -1em;
+    height: 2em;
+    padding-top: 0.5em;
+}
+
+
+.filters .rating legend {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+
+
+
+.filters .color ul {
+    margin-left : 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.filters .size ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.filters .rating ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size : 2em;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
+    color: white;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+
+
+/*====== Product section =======*/
+
+.product {
+    margin-bottom : 5em;
+}
+
+.product::after {
+}
+
+.product-name-plack {
+    position: absolute;
+    margin-top: -3em;
+    width : 100%;
+    background-color: black;
+    height : 2.5em;
+    opacity: 0.55;
+}
+
+.product h3 {
+    width : 100%;
+    font-size: 2em;
+    padding : 0 1em 0 0;
+    position: absolute;
+    margin-top : -1.5em;
+    font-family: 'Bebas Neue', cursive; 
+    color : white;
+    text-align: right;
+}
+
+
+.product p {
+    margin : 0.5em 0 1em 0;
+    padding: 1em 1em 2em 1em;
+    border-color : #000;
+    border-style: inset;
+    border-bottom-width: 0.2em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.product form {
+
+}
+
+
+.product-specification {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* ======= Product specification section ======== */
+.product-spec-legend {
+    font-size: 1.7em;
+    padding-left: 2em;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+.product-colour ul {
+    list-style-type: none;
+}
+
+.product-colour {
+    text-align : left;
+}
+
+
+
+.product-size ol {  
+    list-style-type: none;
+    padding-left: 0em;
+}
+.product-size {
+    
+    margin: 0 0 0 0;
+}
+
+.custom-radio-container {
+    cursor : pointer;    
+}
+
+.custom-radio-container input {
+    cursor : pointer;
+    position : absolute;
+    height : 0;
+    width : 0;
+    opacity: 0;
+}
+
+.custom-radio-container:hover input {
+    background-color : #ccc;
+}
+
+
+
+
+.custom-radio:checked < .custom-radio-container {
+    background-color : black;
+    color : #ffffff;
+
+}
+
+
+.product-panel-container {
+    margin-top : 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-panel-container dl {
+    padding-left : 2em;
+}
+
+.product-panel-container dt, dd {
+       
+    font-family: Roboto, sans-serif;
+}
+
+.product-interaction-panel {
+    display: block;
+    text-align : right;
+    padding : 0 2em 0 0;
+    font-family: Roboto, sans-serif;
+}
+
+.product-interaction-panel button {
+    
+}
+
+.see-more-link {
+    box-sizing : border-box;
+    display: block;
+    padding : 0.2em 0 0 0;
+    margin : 1em auto;
+    text-decoration: none;
+    color : black;
+    background-color:  #dbdbdb;
+    width : 70%;
+    cursor : pointer;
+    text-align : center;
+    font-family: Roboto, sans-serif;
+}
+
+
+
+.see-more-link:hover {
+    background-color : #000;
+    color : #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding : 0 0 0 3em;
+    margin : 0.5em 0 0.5em 0;
+    cursor: pointer;    
+    user-select: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 1.5em;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.15em;
+    width: 100%;
+    background-color: #eee;
+    /*border-radius: 1em;*/
+    z-index: -1;
+}
+
+.z-label {
+    z-index: 2;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    margin-left : 2em;
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+    top: 0.33em;
+    left: 0.25em;
+    width: 0.5em;
+    height : 0.5em;
+    border-radius: 50%;
+    background: black;
+}
+
+
+
+
+/*
+.container {
+  background-color: #eee;
+}
+.custom-radio {
+  display: none;
+}
+.custom-radio:checked + .container {
+  background-color: #2196F3;
+}
+.custom-radio:checked + .container::before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+*/
+
+
+
+
+
+
+
+/* Customize the label (the container) */
+.filters .container {
+    display: block;
+    position: relative;
+    padding : 0 0 0 3em;
+    margin : 0.5em 0 0.5em 0;
+    cursor: pointer;    
+    user-select: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 1.5em;
+}
+
+/* Hide the browser's default radio button */
+.filters .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.filters .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.15em;
+    width: 100%;
+    background-color: #eee;
+    /*border-radius: 1em;*/
+    z-index: -1;
+}
+
+.filters .z-label {
+    z-index: 2;
+}
+
+/* On mouse-over, add a grey background color */
+.filters .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.filters .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.filters .checkmark:after {
+    margin-left : 2em;
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.filters .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.filters .container .checkmark:after {
+    top: 0.33em;
+    left: 0.25em;
+    width: 0.5em;
+    height : 0.5em;
+    border-radius: 50%;
+    background: black;
+}
+/*===============================*/
+
+
+
+
+
+
+.pagination {
+    margin : 1em 0 1em 0;
+    text-align : center;
+    font-family: Roboto, sans-serif;
+
+}
+
+.pagination li {
+    margin-top : 1em;
+    padding : 0 1em;
+    display: inline-block;
+    border-radius: 100%;
+    width : 2em;
+    height : 2em;
+    background-color : #dbdbdb;
+    padding-top : 0.5em;
+    padding-left: 0.75em;
+    
+
+}
+
+.pagination li:hover {
+    background-color : black;
+    color: white;
+}
+
+.pagination a:hover {
+    text-decoration: none;
+}
+
+.pagination ol {
+    padding: 0 0 0 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.main-footer {
+
+    color : white;
+    background-color : #222;
+    padding : 3em;
+
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.main-footer a { 
+    color : #aaa;
+}
+
+.main-footer ul {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-footer li {
+    text-align : center;
+    margin : 1em 0;
+}
+
+
+/* ======================================= */
+
+.burger-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+.burger {
+    
+    margin: 0 0 1em 0;
+
+    color : white;
+    background-color : rgba(0,0,0,0);
+    border: none;
+    cursor : pointer;
+}
+
+.burger-menu {
+    display: block;
+    background-color: black;
+    color : white;
+    
+    padding : 1em 0 0 1em;
+
+}
+
+.burger-menu li {
+    display: block;
+    height : 3em;
+}
+
+.burger-menu li ul li{
+    height: 3em;
+    padding-left: 2em;
+    display: block;
+}
+
+.search-field {
+    background-color: #dddddd;
+}
+
+.filters  fieldset {
+    margin-top: 2em;
+    background-color: #dbdbdb;
+}
+
+.filters legend {
+    box-sizing: border-box;
+    padding: 0em 2em 0em 2em;
+    color : white;
+    background-color: black;
+    position: absolute;
+    margin-top : -1em;
+    height: 2em;
+    padding-top: 0.5em;
+}
+
+
+.filters .rating legend {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+
+
+
+.filters .color ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.filters .size ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.filters .rating ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size : 2em;
+    text-align: center;
+    margin: 2em 0em 1em 0em;
+    color: white;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+/*====== Product section =======*/
+
+.product {
+    /**/
+}
+
+.product-name-plack {
+    position: absolute;
+    margin-top: -3em;
+    width : 100%;
+    background-color: black;
+    height : 2.5em;
+    opacity: 0.55;
+}
+
+.product h3 {
+    width : 100%;
+    font-size: 2em;
+    padding : 0 1em 0 0;
+    position: absolute;
+    margin-top : -1.5em;
+    font-family: 'Bebas Neue', cursive; 
+    color : white;
+    text-align: right;
+}
+
+
+.product p {
+    margin : 0.5em 0 1em 0;
+    padding-bottom: 1em;
+    border-color : #000;
+    border-style: inset;
+    border-bottom-width: 0.2em;
+    font-family: 'Roboto', sans-serif;
+
+    
+
+}
+
+.product form {
+
+}
+
+.product-specification {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* ======= Product specification section ======== */
+.product-spec-legend {
+    font-size: 1.7em;
+    padding-left: 2em;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+.product-colour ul {
+    list-style-type: none;
+}
+
+.product-colour {
+    text-align : left;
+}
+
+
+
+.product-size ol {  
+    list-style-type: none;
+    padding-left: 0em;
+}
+.product-size {
+    
+    margin: 0 0 0 0;
+}
+
+.custom-radio-container {
+    cursor : pointer;    
+}
+
+.custom-radio-container input {
+    cursor : pointer;
+    position : absolute;
+    height : 0;
+    width : 0;
+    opacity: 0;
+}
+
+.custom-radio-container:hover input {
+    background-color : #ccc;
+}
+
+
+
+
+.custom-radio:checked < .custom-radio-container {
+    background-color : black;
+    color : #ffffff;
+
+}
+
+
+
+
+
+
+
+
+.product-splash-image-container {
+    display: block;
+    width : 100%
+    background-color: black;
+}
+
+.product-splash-image-container img {
+    position: absolute;
+}
+
+.product-splash-image-container .main-label {
+    display: block;
+    width: 100%;
+    position : absolute;
+    text-align: right;
+    padding:  0 2em 0 0;
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    color : white;
+
+    background-color : rgba(0, 0, 0, 0.5);
+
+    margin-top : 1em;
+
+
+}
+
+.main-label .plack {
+    display: block;
+    background-color : black;
+    position: absolute;
+    opacity : 0.5;
+    height : 2em;
+    width : 100%;
+    
+
+}
+
+.product-splash-image {
+    width : 100%;
+}
+
+.tmp {
+    height : 100em;
+    width : 100%;
+    background-color : red;
+}
+
+
+
+
+
+.adaptive-grid-container {
+    margin : 2em 0 0 0;
+    padding : 0 1em 0 1em;
+    width : 100%;
+    max-width : 30em;
+    margin : 0 auto;
+}
+
+.single-product-container {
+    padding : 0 1em 0 1em;
+    margin :  3em auto;
+    max-width: 75em;
+}
+
+.single-product-container p {
+    padding : 0 1em 0 1em;
+    margin :  1em 0 1em 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.single-product-container .name {
+    margin : 0 0 0 0;
+    padding : 0.2em 1em 0.1em 1em;
+    
+    line-height : 0.8em;
+    color : white;
+    font-size : 2em;
+    font-family: 'Bebas Neue', cursive; 
+    text-align: right;
+
+    background-color : rgba(0,0,0,1);
+}
+
+
+.single-product-container .interaction-panel {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+
+    color : white;
+    background-color : black;
+    height : 2em;
+
+    text-align : center;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.separator{
+    width : 100%;
+    margin : 1em 0 0.2em 0;
+
+    background-color : black;
+    height : 0.2em;
+}
+
+.buy-button {
+    background-color: #333; /* Green */
+    border: none;
+    font-family: 'Roboto', 'sans-serif';
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    height : 100%;
+    width : 100%;
+
+    overflow : hidden;
+}
+
+.buy-button:hover {
+    background-color: #4CAF50; /* Green */
+    font-family: 'Bebas Neue', 'cursive';
+    font-size : 2em;
+}
+
+
+
+/*============ Product Specification ============ */
+
+.product-specification {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-spec-legend {
+    font-size: 1.7em;
+    padding-left: 2em;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+.product-colour ul {
+    list-style-type: none;
+}
+
+.product-colour {
+    text-align : left;
+}
+
+
+
+.product-size ol {  
+    list-style-type: none;
+    padding-left: 0em;
+}
+.product-size {
+    
+    margin: 0 0 0 0;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding : 0 0 0 3em;
+    margin : 0.5em 0 0.5em 0;
+    cursor: pointer;    
+    user-select: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size : 1.5em;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.15em;
+    width: 100%;
+    background-color: #eee;
+    /*border-radius: 1em;*/
+    z-index: -1;
+}
+
+.z-label {
+    z-index: 2;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    margin-left : 2em;
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    top: 0.33em;
+    left: 0.25em;
+    width: 0.5em;
+    height : 0.5em;
+    border-radius: 50%;
+    background: black;
+}
+
+/* ============================================== */
+
+
+
+.adaptive-grid-container .rating dt, dd {
+    font-family: 'Roboto', 'sans-serif';
+    padding : 0 0 0 1em;
+}
+
+.rating-and-see-more {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.see-more-link {
+    text-align : center;
+    background-color : #aaa;    
+    color : white;
+    padding : 0.8em 0 0 0;
+    height : 2.7em;
+}
+
+.see-more-link:hover {
+    background-color : black;
+    font-family: 'Bebas Neue', 'cursive';    
+    font-size : 1.4em;
+    height : 1.92em;
+    padding-top : 0.38em;
+
+}
+
+.rating-and-see-more a {
+    color : inherit;
+    font-family: 'Roboto', 'sans-serif';
+    text-decoration: none;
+}
+
+/* ============================================== */
+
+.interaction-panel .price {
+    padding: 0.3em 0 0 0;
+}
+
+.interaction-panel .like {
+    padding: 0.12em 1em 0 0;
+    text-align: right;
+}
+
+.interaction-panel .like button{
+    color : white;
+    background-color : black;
+    border : none;
+
+}
+
+.interaction-panel .like button:hover{
+    color : #aa0000;
+}
+
+
+
+.header-image-container {
+    height : 5em;
+    overflow : hidden;
+    background-image: url('../img/shutter_splash.jpeg');
+    background-position: center;
+    background-size : cover;
+    background-repeat : none;
+
+}
+
+
+
+
+
+
+
+
+
+/*========================================================*/
+
+
+/*========================================================*/
+
+
+
+
+@media screen and (min-width: 40em) {
+	
+	.adaptive-grid-container {
+        max-width : 100%;
+        display : grid;
+        grid-template-columns: 1fr 1fr;
+	}
+
+}
+
+@media screen and (min-width: 65em) {
+	
+	.adaptive-grid-container {
+        max-width : 75em;
+        display : grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .product-article-adaptive-grid {
+        max-width : 75em;
+        display : grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

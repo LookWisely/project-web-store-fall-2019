@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap');
+
+.article-binder {
+    width : 100%;
+}
+
+.spec-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin : 0 0 1em 0;
+}
+
+.property-name {
+    font-family : 'Roboto', 'sans-serif';
+    text-align : center;
+    padding : 0 0 0 2em;
+    line-height: 1.8em;
+}
+
+.property-value {
+    font-family : 'Roboto', 'sans-serif';
+    font-style: italic;
+    color : #444;
+    text-align : center;
+    padding : 0 2em 0 0;
+    line-height: 1.8em;
+    
+}
+
+.dimm {
+    background-color : #e0e0e0;
+}
+
+.single-product-container h2 {
+    margin : 0.3em 0 0.3em 0;
+    padding : 0 0 0 0.5em;
+    
+    font-family: 'Bebas Neue', 'cursive';
+    font-size : 2em;   
+    color : grey; 
+}
+
+
+.customer-review {
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+
+    font-family: 'Roboto', 'sans-serif';
+
+    margin : 2em auto;
+    padding : 0 2em 0 0;
+
+    max-width: 50em;
+
+}
+
+.comment-section .user-picture {
+    height : 3em;
+    width : 3em;
+
+    background-color : grey;
+    border-radius : 100%;
+
+    margin : 0 auto;
+
+}
+
+.comment-section .user-name {
+    text-align: center;
+    margin : 0 0 0.5em 0;
+}
+
+.comment-section .comment-body {
+    font-size : 0.9em;
+}
+
+.comment-section .comment-body p{
+    margin-top : 1em;
+}
+
+
+@media screen and (min-width: 40em) {
+	
+
+}
+
+@media screen and (min-width: 65em) {
+	
+	
+}
